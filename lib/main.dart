@@ -11,16 +11,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Column(
-          children: [
-            Text(
-              'Register',
-              style: TextStyle(
-                fontSize: 44,
-                fontFamily: 'In'
+        body: SafeArea(
+          child: Column(
+            children: [
+              Text(
+                'Register',
+                style: TextStyle(
+                  fontSize: 44,
+                  fontFamily: 'Inter-Bold',
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
